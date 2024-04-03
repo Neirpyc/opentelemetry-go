@@ -1,4 +1,4 @@
-module github.com/agoda-com/opentelemetry-go/otelslog
+module github.com/Neirpyc/opentelemetry-go/otelslog
 
 go 1.21
 

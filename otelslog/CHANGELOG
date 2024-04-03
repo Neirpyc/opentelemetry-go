@@ -8,6 +8,10 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+### Added
+
+- support for slog.LogValuer as attribute value
+
 ## [v0.1.1] 2023-12-24
 
 ### Added

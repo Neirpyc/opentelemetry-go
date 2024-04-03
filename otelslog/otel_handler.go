@@ -18,18 +18,19 @@ package otelslog
 
 import (
 	"context"
+	"io"
+	"log/slog"
+	"sync"
+
 	otel "github.com/agoda-com/opentelemetry-logs-go/logs"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/sdk/instrumentation"
 	semconv "go.opentelemetry.io/otel/semconv/v1.21.0"
 	"go.opentelemetry.io/otel/trace"
-	"io"
-	"log/slog"
-	"sync"
 )
 
 const (
-	instrumentationName = "github.com/agoda-com/otelslog"
+	instrumentationName = "github.com/Neirpyc/otelslog"
 )
 
 // OtelHandler is a Handler that writes Records to OTLP
